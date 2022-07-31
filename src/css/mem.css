@@ -1,0 +1,31 @@
+.mem{
+
+   background: black;
+   color: white;
+  
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   flex-wrap: wrap; /* ye jb shrink hota tb align krne ke kaam aata*/
+   padding-top: 100px;
+   padding-left:40px;
+   padding-bottom: 100px;
+}
+
+.pe{
+    color: blue !important;
+}
+
+.pe2{
+    color: blue !important;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+ 
+    padding: 20px;
+
+}

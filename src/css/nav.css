@@ -1,0 +1,26 @@
+.bg-s{
+  background-color:black !important;
+  padding-left:40px !important;
+
+
+}
+.s-foot{
+  background-color:black;
+  padding-left:10px;
+  display: flex;
+ 
+  justify-content: center;
+}
+
+.tx{
+  color: white;
+
+}
+
+.tx:hover{
+  background: white;
+  color:black;
+  border-radius: 10px;
+
+  
+}

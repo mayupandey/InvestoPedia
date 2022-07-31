@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Cont from './components/hey.js';
+import Ns from './components/nav.js';
+import Bl from './components/sc.js';
+import Mem from './components/m1.js'; 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<div
+style={
+  {
+ backgroundColor:"black !important"
+  }
+}>
+<Ns/>
+     <Cont/>
+     <Bl/>
+     <Mem/>
+     </div>
+      
   );
 }
 
