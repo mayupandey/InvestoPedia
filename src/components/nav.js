@@ -5,7 +5,7 @@ import '../css/nav.css';
 function Ns() {
   return (
     <>
-    <Navbar className="bg-s" variant="dark" expand="lg">
+    <Navbar className="bg-s" variant="dark" expand="lg" sticky='top'>
     <Navbar.Brand>
       INVESTOMENTOR
    </Navbar.Brand>
@@ -31,11 +31,7 @@ About Us
     </Navbar.Collapse>
   
     </Navbar>
-  <Navbar className="s-foot" variant="dark" fixed="bottom">
-    <Navbar.Brand>
-    @2022 INVESTOMENTOR
-    </Navbar.Brand>
-   </Navbar>
+ 
  </>
   );
 }
